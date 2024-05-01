@@ -1,0 +1,8 @@
+https://github.com/houleyemballo/AerialCactusIdentification
+https://github.com/netinupur/aerial-cactus-image-recognition
+https://github.com/James-xshe/Aerial-Cactus-Identification
+https://github.com/sraddhanjali/Aerial-Cactus-Identification
+https://github.com/Adityavikrambhatta/Aerial-Cactus-detection
+https://github.com/Jingyi-Luo/Aerial_Cactus_Detection_Using_CNN
+https://github.com/andreduong-zz/aerial-cactus-identification
+https://github.com/abhinand5/Aerial-Cactus-Identification-Kaggle-Challenge
