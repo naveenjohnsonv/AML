@@ -1,0 +1,153 @@
+% gjilguid2e.tex
+% V2.0 released 1998 December 18
+% V2.1 released 2003 October 7 -- Gregor Hutton, updated the web address for the style files.
+% V2.2 released 2024 April 23 - Peter Jones (OUP), updated \pubyear to print current year.
+
+\documentclass{gji}
+\usepackage{timet,color}
+\usepackage[urlcolor=blue,citecolor=black,linkcolor=black]{hyperref}
+\usepackage{authblk}
+\usepackage{times}        % Police de caractères Times
+\usepackage{hyperref}     % Pour la gestion des hyperliens
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=black
+}
+\title{\centering Aerial Cactus Identification \\[10pt] % Ajoute un saut de ligne avec un espace vertical
+\large AML Challenge 1 \\[5pt] % Sous-titre avec un espace vertical plus petit
+\large Group n° 50} 
+\author{
+  Victor Mayaud$^1$,   % Premier auteur
+  Elliot BOUCHY$^1$,      % Deuxième auteur
+  Aymeric LEGROS$^1$,
+  Naveen JOHNSON$^1$\\      % Troisième auteur
+
+  $^1$Eurecom - Data Science, France 
+
+}
+\date{Date: 2024 MAY 2}
+\pagerange{\pageref{firstpage}--\pageref{lastpage}}
+\volume{200}
+\pubyear{{\the\year{}}}
+
+%\def\LaTeX{L\kern-.36em\raise.3ex\hbox{{\small A}}\kern-.15em
+%    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}
+%\def\LATeX{L\kern-.36em\raise.3ex\hbox{{\Large A}}\kern-.15em
+%    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}
+% Authors with AMS fonts and mssymb.tex can comment out the following
+% line to get the correct symbol for Geophysical Journal International.
+\let\leqslant=\leq
+
+\newtheorem{theorem}{Theorem}[section]
+
+\begin{document}
+
+\label{firstpage}
+
+\maketitle
+
+
+\begin{summary}
+This report is for the AML1 project on \textit{Aerial Cactus Identification}. The goal of the project is to determine whether an image contains a columnar.
+\end{summary}
+
+
+\section{Introduction}
+
+
+Quantifying the impact of human’s activities on Earth’s flora and fauna is anything but easy. Indeed, in Mexico for instance, logging, mining, or agriculture are so many activities that can negatively impact biodiversity without been well noticed.
+
+Some supervisions are available determine either or not there are cactus, for example, but the aerial image may not always be clear which complicates the task. However, what a human cannot do for classification may be done with machine learning.
+
+In this work we will use and discuss some machine learning techniques to accurately and perfectly determine either or not the flora on the picture is a Neobuxbaumia tetetzo cactus. 
+
+The report is led by the following plan: Section 2 briefly describes the dataset used in our stud. Section 3 presents and motivates the data preprocessing techniques we applied. Whereas section 4 illustrates the machine learning models selection we chose and how we selected it. Section 5 for its part focuses on the model evaluation and how we confirmed our choice. Finally, Section 6 finally concludes the report, summarizing our main findings.
+
+
+\section{Dataset}
+
+Elliot. Explication du dataset
+
+\subsection{exemple}\label{classoptions}
+
+
+
+\section{Data preprocessing}
+
+Elliot
+
+\subsection{example}
+Elliot \newline \newline
+In the GJI style, the title of the article and the author's name (or
+authors' names) are used both at the beginning of the article for the
+main title and throughout the article as running headlines at the top
+of every page. The title is used on odd-numbered pages (rectos) and the
+author's name appears on even-numbered pages (versos). Although the
+main heading can run to several lines of text, the running headline
+must be a single line ($\leqslant 45$ characters). Moreover, the main
+heading can also incorporate new line commands (e.g. \verb"\\") but
+these are not acceptable in a running headline. To enable you to
+specify an alternative short title and an alternative short author's
+name, the standard \verb"\title" and \verb"\author" commands have been
+extended to take an optional argument to be used as the running
+headline. The running headlines for this guide were produced using the
+following code:
+\begin{verbatim}
+\title[Geophys.\ J.\ Int.:
+       \LaTeXe\ Guide for Authors]
+  {Geophysical Journal International:
+   \LaTeXe\ style guide for authors}
+\end{verbatim}
+and
+\begin{verbatim}
+\author[B.L.N. Kennett]
+   {B.L.N. Kennett$^1$
+  \thanks{Pacific Region Office, GJI} \\
+  $^{1}$Research School of Earth Sciences,
+    Australian National University,
+    Canberra ACT \emph{0200}, Australia
+  }
+\end{verbatim}
+The \verb"\thanks" note produces a footnote to the title or author.
+
+
+
+
+\LaTeX\ provides five levels of section headings and they are all
+defined in the GJI style file:
+\begin{description}
+  \item \verb"\section"
+  \item \verb"\subsection"
+  \item \verb"\subsubsection"
+  \item \verb"\paragraph"
+  \item \verb"\subparagraph"
+\end{description}
+Section numbers are given for section, subsection, subsubsection
+and paragraph headings.  Section headings are automatically converted to
+upper case; if you need any other style, see the example in section~\ref{headings}.
+
+If you find your section/subsection (etc.)\ headings are wrapping round,
+you must use the \verb"\\*" to end individual lines and include the
+optional argument \verb"[]" in the section command. This ensures that
+the turnover is flushleft.
+
+\section{Model Selection}
+
+Victor 
+
+\section{Model evaluation}
+Naveen?
+
+\section{Conclusion}
+
+Aymeric
+
+\section{References}
+
+everybody
+
+
+\end{document}
